@@ -1,15 +1,4 @@
-// Au début de votre fichier JavaScript
-require('dotenv').config();
-
-const apiKey = process.env.API_KEY;
-
-console.log('Clé API :', apiKey); // Ajout de cette ligne pour déboguer
-
-// Le reste de votre code reste inchangé
-
-
-// Le reste de votre code reste inchangé
-
+const apiKey = '7cc72720'; // Remplace avec ta vraie clef API
 
 const searchForm = document.getElementById('searchForm');
 const searchInput = document.getElementById('searchInput');
